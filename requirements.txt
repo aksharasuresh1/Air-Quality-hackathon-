@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+requests
+plotly
+folium
+streamlit-folium
+geopy
+python-dotenv
+scikit-learn
+matplotlib
+pillow
+branca
