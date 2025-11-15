@@ -1,8 +1,12 @@
 streamlit
-requests
 pandas
+requests
+pydeck
 plotly
-twilio
-python-dotenv
-sqlalchemy
 numpy
+Twilio
+geopandas
+tensorflow
+pykrige
+pyproj
+scikit-learn
