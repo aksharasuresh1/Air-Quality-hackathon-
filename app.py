@@ -89,8 +89,8 @@ def get_aqi_category(aqi: float):
     elif a <= 300:
         return "Very Unhealthy", "#7C3AED", "🟣", "Health alert: everyone may experience more serious health effects."
     else:
-        # Changed hazardous color to deep maroon/dark red so it's visually distinct from 'Very Unhealthy'
-        return "Hazardous", "#7F1D1D", "☠️", "Health warnings of emergency conditions. The entire population is more likely to be affected."
+        # HAZARDOUS FIX — BLACK COLOR + BLACK CIRCLE
+        return "Hazardous", "#000000", "⚫", "Health warnings of emergency conditions. The entire population is more likely to be affected."
 
 # ----------------------------
 # Simple PM2.5 -> AQI conversion (US EPA breakpoints)
