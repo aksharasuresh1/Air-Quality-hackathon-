@@ -1,13 +1,7 @@
-streamlit
+streamlit>=1.20
 pandas
 numpy
 requests
 plotly
-folium
-streamlit-folium
-geopy
-python-dotenv
-scikit-learn
-matplotlib
-pillow
-branca
+twilio
+tensorflow>=2.9  # optional - remove if you won't use LSTM integration
