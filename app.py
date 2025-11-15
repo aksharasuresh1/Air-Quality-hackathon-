@@ -315,7 +315,7 @@ def get_aqi_category(aqi):
     elif aqi <= 300:
         return "Very Unhealthy", [147, 51, 234], "🟣", "Health alert: everyone may experience more serious health effects."
     else:
-        return "Hazardous", [126, 34, 206], "☠️", "Health warnings of emergency conditions. The entire population is more likely to be affected."
+        return "Hazardous", [126, 34, 206], "⚫", "Health warnings of emergency conditions. The entire population is more likely to be affected."
 
 
 def get_weather_info(code):
