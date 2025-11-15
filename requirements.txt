@@ -1,8 +1,8 @@
-streamlit==1.26.0
-requests==2.31.0
-pandas==2.2.2
-plotly==5.16.0
-twilio==8.3.0
-python-dotenv==1.0.0
-sqlalchemy==2.0.19
-numpy==1.26.2
+streamlit
+requests
+pandas
+plotly
+twilio
+python-dotenv
+sqlalchemy
+numpy
